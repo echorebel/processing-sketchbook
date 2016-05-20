@@ -1,5 +1,8 @@
 .DS_Store
 applet
+examples
+libraries
+modes
 application.linux32
 application.linux64
 application.windows32

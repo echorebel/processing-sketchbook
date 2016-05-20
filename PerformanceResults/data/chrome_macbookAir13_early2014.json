@@ -1,0 +1,319 @@
+{
+    "medusae": {
+        "name": "Medusae",
+        "icon": "/assets/img/games/medusae-icon.jpg",
+        "url": "https://s3.amazonaws.com/owg/medusae/index.html",
+        "width": 1366,
+        "height": 768,
+        "features": [
+            "webGl"
+        ],
+        "folderSize": 9328,
+        "timeout": 120000,
+        "credits": [
+            {
+                "category": "Jay Weeks",
+                "name": "Medusae",
+                "url": "https://github.com/jpweeks/particulate-medusae",
+                "$$hashKey": "object:46"
+            }
+        ],
+        "mobile": true,
+        "desktop": true,
+        "status": "success",
+        "startTime": 35400.54,
+        "timer": "00:31",
+        "timeoutPercentage": 0,
+        "interval": {
+            "$$state": {
+                "status": 2,
+                "value": "canceled",
+                "processScheduled": false
+            },
+            "$$intervalId": 169
+        },
+        "stopTime": 67529.44,
+        "results": {
+            "totalTime": 34643,
+            "wrongPixels": 5,
+            "result": "PASS",
+            "cpuTime": 10183,
+            "cpuIdle": 0.7060651598976723,
+            "fps": 43.29906549070254,
+            "pageLoadTime": 4960.785,
+            "numStutterEvents": 253
+        }
+    },
+    "alphabear": {
+        "name": "Alphabear",
+        "icon": "/assets/img/games/alphabear-icon.jpg",
+        "url": "https://s3.amazonaws.com/owg/alphabear/index.html",
+        "width": 1366,
+        "height": 768,
+        "features": [
+            "webGl",
+            "domLevel3"
+        ],
+        "folderSize": 51968,
+        "timeout": 120000,
+        "credits": [
+            {
+                "category": "SpryFox",
+                "name": "Alphabear",
+                "url": "http://spryfox.com/our-games/alphabear/",
+                "$$hashKey": "object:66"
+            }
+        ],
+        "mobile": true,
+        "desktop": true,
+        "status": "success",
+        "startTime": 140518.73,
+        "timer": "00:54",
+        "timeoutPercentage": 0,
+        "interval": {
+            "$$state": {
+                "status": 2,
+                "value": "canceled",
+                "processScheduled": false
+            },
+            "$$intervalId": 520
+        },
+        "stopTime": 196176.44500000004,
+        "results": {
+            "totalTime": 84592,
+            "wrongPixels": 0,
+            "result": "PASS",
+            "cpuTime": 74989,
+            "cpuIdle": 0.11352066833974796,
+            "fps": 23.64281242838814,
+            "pageLoadTime": 40125.28,
+            "numStutterEvents": 318
+        }
+    },
+    "sponzadynamicshadows": {
+        "name": "Sponza Dynamic Shadows",
+        "icon": "/assets/img/games/sponza-icon.png",
+        "url": "https://s3.amazonaws.com/owg/sponza/Demos/SponzaDynamicShadows/index.html",
+        "width": 1366,
+        "height": 768,
+        "features": [
+            "webGl",
+            "domLevel3"
+        ],
+        "folderSize": 78560,
+        "timeout": 60000,
+        "credits": [
+            {
+                "category": "WebGL JavaScript Framework",
+                "name": "BabylonJS",
+                "url": "http://www.babylonjs.com/",
+                "$$hashKey": "object:71"
+            }
+        ],
+        "mobile": false,
+        "desktop": true,
+        "status": "timeout",
+        "startTime": 212099.32,
+        "timer": "01:00",
+        "timeoutPercentage": 0,
+        "interval": {
+            "$$state": {
+                "status": 2,
+                "value": "canceled",
+                "processScheduled": false
+            },
+            "$$intervalId": 755
+        },
+        "error": {},
+        "stopTime": 272123.93000000005
+    },
+    "skisafari": {
+        "name": "Ski Safari",
+        "icon": "/assets/img/games/skisafari-icon.jpg",
+        "url": "https://s3.amazonaws.com/owg/skisafari/index.html",
+        "width": 1366,
+        "height": 768,
+        "features": [
+            "webGl",
+            "domLevel3"
+        ],
+        "folderSize": 96512,
+        "timeout": 120000,
+        "credits": [
+            {
+                "category": "Sleepy Z Studios",
+                "name": "Ski Safari",
+                "url": "http://skisafari2.com/",
+                "$$hashKey": "object:77"
+            }
+        ],
+        "mobile": false,
+        "desktop": true,
+        "status": "success",
+        "startTime": 309739.18000000005,
+        "timer": "00:48",
+        "timeoutPercentage": 0,
+        "interval": {
+            "$$state": {
+                "status": 2,
+                "value": "canceled",
+                "processScheduled": false
+            },
+            "$$intervalId": 1388
+        },
+        "stopTime": 359748.405,
+        "results": {
+            "totalTime": 51555,
+            "wrongPixels": 82,
+            "result": "PASS",
+            "cpuTime": 40691,
+            "cpuIdle": 0.21072842157206104,
+            "fps": 38.79385633335405,
+            "pageLoadTime": 27923.360000000004,
+            "numStutterEvents": 323
+        }
+    },
+    "casino": {
+        "name": "Casino",
+        "icon": "/assets/img/games/casino-icon.jpg",
+        "url": "https://s3.amazonaws.com/owg/casino/index.html",
+        "width": 1366,
+        "height": 768,
+        "features": [
+            "webGl",
+            "domLevel3"
+        ],
+        "folderSize": 157720,
+        "timeout": 120000,
+        "credits": [
+            {
+                "category": "PlayCanvas",
+                "name": "Casino",
+                "url": "https://playcanvas.com/industries/gambling",
+                "$$hashKey": "object:82"
+            }
+        ],
+        "mobile": true,
+        "desktop": true,
+        "status": "success",
+        "startTime": 401332.655,
+        "timer": "01:02",
+        "timeoutPercentage": 0,
+        "interval": {
+            "$$state": {
+                "status": 2,
+                "value": "canceled",
+                "processScheduled": false
+            },
+            "$$intervalId": 1594
+        },
+        "stopTime": 464752.63,
+        "results": {
+            "totalTime": 64072,
+            "wrongPixels": 2,
+            "result": "PASS",
+            "cpuTime": 55803,
+            "cpuIdle": 0.12904656914522405,
+            "fps": 34.33652431498049,
+            "pageLoadTime": 37987.395000000004,
+            "numStutterEvents": 68
+        }
+    },
+    "suntemple": {
+        "name": "Sun Temple",
+        "icon": "/assets/img/games/suntemple-icon.jpg",
+        "url": "https://s3.amazonaws.com/owg/suntemple/index.html",
+        "width": 1366,
+        "height": 768,
+        "features": [
+            "optimizedJavaScript",
+            "webGl",
+            "indexedDb",
+            "domLevel3"
+        ],
+        "folderSize": 203144,
+        "timeout": 120000,
+        "credits": [
+            {
+                "category": "Unreal Engine 4.10",
+                "name": "Sun Temple",
+                "url": "https://www.unrealengine.com/",
+                "$$hashKey": "object:87"
+            }
+        ],
+        "mobile": false,
+        "desktop": true,
+        "status": "success",
+        "startTime": 540796.9500000001,
+        "timer": "01:04",
+        "timeoutPercentage": 0,
+        "interval": {
+            "$$state": {
+                "status": 2,
+                "value": "canceled",
+                "processScheduled": false
+            },
+            "$$intervalId": 2436
+        },
+        "stopTime": 606074.475,
+        "results": {
+            "totalTime": 67895,
+            "wrongPixels": 0,
+            "result": "PASS",
+            "cpuTime": 62337,
+            "cpuIdle": 0.08186228049826579,
+            "fps": 41.2399983798572,
+            "pageLoadTime": 70802.03,
+            "numStutterEvents": 109
+        }
+    },
+    "heroesofparagon": {
+        "name": "Heroes of Paragon",
+        "icon": "/assets/img/games/heroesofparagon-icon.png",
+        "url": "https://s3.amazonaws.com/owg/heroesofparagon/index.html",
+        "width": 1366,
+        "height": 768,
+        "features": [
+            "optimizedJavaScript",
+            "webGl",
+            "webAudio",
+            "indexedDb",
+            "domLevel3"
+        ],
+        "folderSize": 244488,
+        "timeout": 120000,
+        "credits": [
+            {
+                "category": "Unity3D",
+                "name": "EVERYDAYiPLAY",
+                "url": "https://everydayiplay.com/",
+                "$$hashKey": "object:92"
+            }
+        ],
+        "mobile": false,
+        "desktop": true,
+        "status": "success",
+        "startTime": 679718.075,
+        "timer": "01:42",
+        "timeoutPercentage": 0,
+        "interval": {
+            "$$state": {
+                "status": 2,
+                "value": "canceled",
+                "processScheduled": false
+            },
+            "$$intervalId": 19865
+        },
+        "stopTime": 782642.5,
+        "results": {
+            "totalTime": 102973,
+            "wrongPixels": 1,
+            "result": "PASS",
+            "cpuTime": 126412,
+            "cpuIdle": -0.2276219360308405,
+            "fps": 19.422557649792832,
+            "pageLoadTime": 36321.270000000004,
+            "numStutterEvents": 245
+        }
+    }
+}
