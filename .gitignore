@@ -3,6 +3,7 @@ applet
 examples
 libraries
 modes
+tools
 application.linux32
 application.linux64
 application.windows32

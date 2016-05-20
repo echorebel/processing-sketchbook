@@ -13,3 +13,7 @@ The sketch supports the json format and results from [OpenWebGames](https://www.
 
 ### [Playground](Playground/)
 Experimental sketch to play around with the Processing API and libraries.
+
+### [WebJS](WebJS)
+Using [Processing.js](http://processingjs.org/) to load up pde in canvas.
+Some limitations apply, only Processing API can be used, no Java code, etc.
