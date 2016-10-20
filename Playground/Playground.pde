@@ -19,7 +19,7 @@ void setup()
   //fullScreen(1); // 1 | 2 | SPAN run on a specific monitor or on all
   //fullScreen(P2D);
   //fullScreen(P3D);
-  
+
   cp5 = new ControlP5(this);
   cp5.addSlider("r")
      .setPosition(40, 40)
@@ -27,10 +27,10 @@ void setup()
      .setRange(50, 300)
      .setValue(r)
      .setColorCaptionLabel(color(20,20,20));
-     
+
   cp5.addButton("myButton")
      .setPosition(350, 40);
-  
+
 }
 
 void draw()
@@ -38,12 +38,12 @@ void draw()
   if(keyPressed) {
         print(" you pressed "+key);
   }
-  
+
   ellipse(x,200,r,r);
   x++;
-  
+
   if(x > width) x=0;
-  
+
   beginShape();
   for(int i = 0; i<pts.length; i++)
   {
@@ -53,7 +53,7 @@ void draw()
     }
   }
   endShape();
-    
+
 }
 
 void mousePressed()
@@ -74,7 +74,7 @@ class Point
 {
   float x;
   float y;
-  
+
   Point(float _x, float _y)
   {
     println(" x is: "+_x+" and y is "+_y);
@@ -82,5 +82,3 @@ class Point
     y = _y;
   }
 }
-    
-  
