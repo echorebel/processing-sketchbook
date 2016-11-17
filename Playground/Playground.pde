@@ -9,6 +9,9 @@ ControlP5 cp5; //no FX2D support
 
 int count = 0;
 
+Walker[] walker = new Walker[10];
+int walkerIndex = 0;
+
 void setup()
 {
   size(800,600);
@@ -38,8 +41,17 @@ void draw()
   if(keyPressed) {
         print(" you pressed "+key);
   }
+  
+  if(walker!=null)
+  {
+    for(int i=0;i<walker.length;i++)
+    {
+      if(walker[i]!=null)
+        walker[i].walk();
+    }
+  }
 
-  ellipse(x,200,r,r);
+  /*ellipse(x,200,r,r);
   x++;
 
   if(x > width) x=0;
@@ -52,22 +64,31 @@ void draw()
       vertex(pts[i].x, pts[i].y);
     }
   }
-  endShape();
+  endShape();*/
 
 }
 
 void mousePressed()
 {
-  if(count > 5){
+  /*if(count > 5){
         count = 0;
     }
     Point newPoint = new Point(mouseX, mouseY);
     pts[count] = newPoint;
-    count++;
+    count++;*/
+    addWalker();
 }
 
 void keyPressed(){
     println(" you're pressing a key \n that key is "+key);
+}
+
+void addWalker()
+{
+  //walker = new Walker((float) Math.random() * width, (float) Math.random() * height);
+  walker[walkerIndex] = new Walker(mouseX, mouseY);
+  walkerIndex++;
+  if(walkerIndex)
 }
 
 class Point
